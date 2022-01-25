@@ -1,10 +1,12 @@
 extends Node
 
-export(PackedScene) var mob_scene
+@export var mob_scene: PackedScene
 var score
 
+var rng = RandomNumberGenerator.new()
+
 func _ready():
-	randomize()
+	rng.randomize()
 
 
 func game_over():
@@ -28,10 +30,10 @@ func new_game():
 func _on_MobTimer_timeout():
 	# Choose a random location on Path2D.
 	var mob_spawn_location = get_node("MobPath/MobSpawnLocation")
-	mob_spawn_location.offset = randi()
+	mob_spawn_location.offset = rng.randi()
 
 	# Create a Mob instance and add it to the scene.
-	var mob = mob_scene.instance()
+	var mob = mob_scene.instantiate()
 	add_child(mob)
 
 	# Set the mob's direction perpendicular to the path direction.
@@ -41,11 +43,13 @@ func _on_MobTimer_timeout():
 	mob.position = mob_spawn_location.position
 
 	# Add some randomness to the direction.
-	direction += rand_range(-PI / 4, PI / 4)
+	
+	direction = rng.randf_range(-PI / 4, PI / 4)
+	
 	mob.rotation = direction
 
 	# Choose the velocity for the mob.
-	var velocity = Vector2(rand_range(150.0, 250.0), 0.0)
+	var velocity = Vector2(rng.randf_range(150.0, 250.0), 0.0)
 	mob.linear_velocity = velocity.rotated(direction)
 
 
