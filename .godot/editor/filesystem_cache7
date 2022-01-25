@@ -1,0 +1,29 @@
+102b54792f6b2ef812636a2bdaeb9d34
+::res://::1643120278
+HUD.gd::GDScript::-1::1639426953::0::1::::<><>::
+HUD.tscn::PackedScene::-1::1639426953::0::1::::<><>::res://HUD.gd<>res://fonts/Xolonium-Regular.ttf
+icon.png::StreamTexture2D::7352277941872495955::1639426953::1643119808::1::::<><>::
+Main.gd::GDScript::-1::1639426953::0::1::::<><>::
+Main.tscn::PackedScene::-1::1639426953::0::1::::<><>::res://Main.gd<>res://Mob.tscn<>res://Player.tscn<>res://HUD.tscn<>res://art/House In a Forest Loop.ogg<>res://art/gameover.wav
+Mob.gd::GDScript::-1::1639426953::0::1::::<>RigidBody2D<>::
+Mob.tscn::PackedScene::-1::1639426953::0::1::::<><>::res://Mob.gd<>res://art/enemyFlyingAlt_1.png<>res://art/enemyFlyingAlt_2.png<>res://art/enemyWalking_1.png<>res://art/enemyWalking_2.png<>res://art/enemySwimming_1.png<>res://art/enemySwimming_2.png
+Player.gd::GDScript::-1::1639426953::0::1::::<><>::
+Player.tscn::PackedScene::-1::1639426953::0::1::::<><>::res://Player.gd<>res://art/playerGrey_walk1.png<>res://art/playerGrey_walk2.png<>res://art/playerGrey_up1.png<>res://art/playerGrey_up2.png
+README.md::TextFile::-1::1639426953::0::1::::<><>::
+::res://art/::1643119808
+enemyFlyingAlt_1.png::StreamTexture2D::5791497665930029674::1639426953::1643119808::1::::<><>::
+enemyFlyingAlt_2.png::StreamTexture2D::8559001628254242179::1639426953::1643119808::1::::<><>::
+enemySwimming_1.png::StreamTexture2D::6205991581101595747::1639426953::1643119808::1::::<><>::
+enemySwimming_2.png::StreamTexture2D::7130246326999066150::1639426953::1643119808::1::::<><>::
+enemyWalking_1.png::StreamTexture2D::466824455015063995::1639426953::1643119808::1::::<><>::
+enemyWalking_2.png::StreamTexture2D::7145882171489380514::1639426953::1643119808::1::::<><>::
+gameover.wav::AudioStreamSample::3509338846562147072::1639426953::1643119808::1::::<><>::
+House In a Forest Loop.ogg::AudioStreamOGGVorbis::6442364607125742805::1639426953::1643119808::1::::<><>::
+playerGrey_up1.png::StreamTexture2D::4078172464918776808::1639426953::1643119808::1::::<><>::
+playerGrey_up2.png::StreamTexture2D::4984615916748059315::1639426953::1643119808::1::::<><>::
+playerGrey_walk1.png::StreamTexture2D::4015878100590060228::1639426953::1643119808::1::::<><>::
+playerGrey_walk2.png::StreamTexture2D::2309446310311145589::1639426953::1643119808::1::::<><>::
+::res://fonts/::1643119808
+FONTLOG.txt::TextFile::-1::1639426953::0::1::::<><>::
+LICENSE.txt::TextFile::-1::1639426953::0::1::::<><>::
+Xolonium-Regular.ttf::FontData::3985472909496017045::1639426953::1643119808::1::::<><>::
